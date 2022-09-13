@@ -1,21 +1,181 @@
-body 
+body
 {
-    background-color: #F5F0BB
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 0px;
 }
-hr
+.top
 {
-    border-style: dotted none none;
-    border-width: 5px;
-    border-color: rgb(91, 89, 91);
-    height: 2px;
-    width: 10%;
+    background-color:CDF0EA;
+    
+    padding-top:  100px;
 }
 h1
 {
-    color: rgb(97, 7, 122);
+    font-size: 5.625rem;
+    width: 20%;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 36px;
+}
+.bottom_cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom:240px;
+}
+.Top-one
+{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+p
+{
+    font-family: 'Zilla Slab', serif;
+}
+h2
+{
+    font-family: 'Hind', sans-serif;
+    color: #66BFBF;
+    font-weight:150;
+}
+.profile-photo
+{
+    border-radius: 100%;
+    width: 250px;
+}
+.middle-container
+{
+    background-color:white;
 }
 h3
 {
-    font-family:"Times New Roman" ;
-    color:rgb(97, 7, 122);
+     font-family: 'Source Serif Pro', serif;
+     color: #11999E;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 30px 0 20px 0;
+}
+.h2-pro
+{
+    font-size: 2.5rem;
+}
+a
+{
+    color: #11999E;
+}
+.skill-row
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+    
+}
+.image-java
+{
+    width: 25%;
+    float: left;
+    position: relative;
+    right: 30px;
+}
+.image-c
+{
+    float: right;
+    width: 25%;
+    position: relative;
+    left: 30px;
+}
+.image-python
+{
+    float: left;
+    width: 25%;
+    position: relative;
+    right: 30px;
+}
+.data-structure
+{
+    float:right;
+    width: 25%;
+    position:relative;
+    left: 30px;
+}
+.dotted
+{
+    border-style: dotted none none ;
+    border-color: darkgray;
+    width: 5%;
+    height: 2px;
+    border-width: 5px;
+}
+.profile
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.profile-p
+{
+    width: auto;
+}
+.skills
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contaCT-me
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .h2-weight
+  {
+    font-weight:700;
+  }
+  .profile-p 
+  {
+    width: 30%;
+    margin: auto;
+  }
+p
+{
+    line-height: 2;
+}
+.image-front-end
+{
+    float:left;
+    width: 25%;
+    position: relative;
+    right: 30px;
 }
